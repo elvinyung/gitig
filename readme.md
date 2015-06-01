@@ -1,7 +1,7 @@
 # Gitig
 ### by [Elvin Yung](https://github.com/elvinyung)
 
-Effortlessly generate gitignores from command-line, courtesy of <gitignore.io>.
+Effortlessly generate gitignores from command-line, courtesy of https://www.gitignore.io/.
 
 ### Installation
 Run `install.sh` as root!
