@@ -1,0 +1,13 @@
+#!/bin/sh
+
+arg=""
+for i in $@; do
+    if [ "$arg" != "" ]; then
+        arg="$arg,"
+    fi
+    arg="$arg$i"
+done
+
+echo "Generating gitignore file for $arg"
+curl --silent "https://www.gitignore.io/api/$arg" >> .gitignore
+echo "Done! Enjoy your gitignore."
